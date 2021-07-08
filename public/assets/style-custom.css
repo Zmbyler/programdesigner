@@ -1,0 +1,15 @@
+.dataTables_filter{
+	margin-left: 320px !important;
+}
+
+.glyphicon-ok::before {
+    content: "\f00c";
+}
+.glyphicon-remove::before {
+    content: "\f00d";
+}
+.glyphicon {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-style: normal;
+}

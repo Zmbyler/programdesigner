@@ -1,0 +1,1415 @@
+{
+    "variables": [],
+    "info": {
+        "name": "BEST API",
+        "_postman_id": "1bd5b34a-8f06-4a39-9ca9-5b90b02ec08a",
+        "description": "",
+        "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.0.0\/collection.json"
+    },
+    "item": [
+        {
+            "name": "Assessment management",
+            "description": "\nAPIs for managing Assessment",
+            "item": [
+                {
+                    "name": "Assessment Details",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/assessment",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Add New Assessment",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/add-assessment",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"name\": \"vel\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Assessment Result Details",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/assessmentResult",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "CMS management",
+            "description": "\nAPIs for managing CMS",
+            "item": [
+                {
+                    "name": "CMS Details",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/cms\/:slug",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"slug\": \"voluptatum\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Contact us management",
+            "description": "\nAPIs for managing Contact",
+            "item": [
+                {
+                    "name": "Contact Page data",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/getcontactPage",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Contact Details",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/contactUs",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"name\": \"earum\",\n    \"email\": \"enim\",\n    \"query\": \"quis\",\n    \"message\": \"aut\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Homepage management",
+            "description": "\nAPIs for managing Homepage",
+            "item": [
+                {
+                    "name": "Home Page Details",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/homepage",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Master data management",
+            "description": "\nAPIs for managing Master Data",
+            "item": [
+                {
+                    "name": "Days List",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/day",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Assessment Category List",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/assessmentCategory",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Country List",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/country",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "BestDescription List",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/bestDescription",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Business Description List",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/businessDescription",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Block Focus List",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/blockFocusList",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Athlete Profile List",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/athleteProfileList",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Season List",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/seasonList",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Sport List",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/sportList",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Training Age\/Level List",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/trainingAgeList",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Program Goal List",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/programGoalList",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Plan management",
+            "description": "\nAPIs for managing Plans",
+            "item": [
+                {
+                    "name": "Plan List",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/plans",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Program Template Pdf Mangement",
+            "description": "\nAPIs for managing Program Template manage",
+            "item": [
+                {
+                    "name": "Add Guest",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/ProgramTemplatePdf",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"program_controls_id\": \"recusandae\",\n    \"email\": [],\n    \"notes\": \"incidunt\",\n    \"name\": \"id\",\n    \"pdf\": \"et\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ProgramTemplate management",
+            "description": "\nAPIs for managing ProgramTemplate",
+            "item": [
+                {
+                    "name": "ProgramTemplate Details",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/getTemplate",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Program Template Type",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/getTemplateType",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Program Template Type Create",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/createTemplate",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"template_type_id\": \"voluptatum\",\n    \"program_goal_id\": \"tenetur\",\n    \"day_id\": \"quia\",\n    \"name\": \"eaque\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Template Type Get by id",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/editTemplate\/:id",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Program Template Type Update",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/updateTemplate",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"template_type_id\": \"et\",\n    \"program_goal_id\": \"ut\",\n    \"name\": \"beatae\",\n    \"id\": 18\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Template Type Deleted by id",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/deleteTemplate\/:id",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Program Template List",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/programTemplateList",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"template_type_id\": \"perferendis\",\n    \"program_goal_id\": \"quia\",\n    \"day_id\": \"sed\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "User Program management",
+            "description": "\nAPIs for managing User Programs",
+            "item": [
+                {
+                    "name": "User Program Create",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/saveUserProgram",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"assessment\": [],\n    \"traiining_age\": \"autem\",\n    \"traiining_block\": \"et\",\n    \"type\": \"debitis\",\n    \"athlete_type\": \"voluptatibus\",\n    \"what_based\": \"magni\",\n    \"what_season\": \"est\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "User Fetch Last Program",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/fetchLastProgram\/:id",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"id\": \"unde\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "User Program Control Create",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/saveProgramControl",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"block_focus\": 6,\n    \"training_level\": 4,\n    \"assessment_results\": 15,\n    \"athlete_profile\": 2,\n    \"season\": 18,\n    \"sport\": 2,\n    \"program_name\": \"quis\",\n    \"last_program_id\": 18,\n    \"programChartData\": \"ad\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "User Fetch Program Chart Details",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/fetchProgramChartDetails",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"main_template_id\": \"dolor\",\n    \"program_goal_id\": \"eveniet\",\n    \"template_id\": \"possimus\",\n    \"what_season\": \"repudiandae\",\n    \"traiining_block\": \"quia\",\n    \"what_based\": \"sunt\",\n    \"training_age\": \"quaerat\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "User Get All Program Chart Details",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/getAllProgram",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "User Edit Program Chart Details",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/editProgramChartDetails\/:id",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Program Deleted by id",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/deleteProgram\/:id",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "User Program Control Update",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/updateProgramControl",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"program_id\": 19,\n    \"block_focus\": 16,\n    \"training_level\": 3,\n    \"assessment_results\": 15,\n    \"athlete_profile\": 20,\n    \"season\": 3,\n    \"sport\": 11,\n    \"program_name\": \"impedit\",\n    \"programChartData\": \"eaque\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "User management",
+            "description": "\nAPIs for managing User",
+            "item": [
+                {
+                    "name": "Register",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/register",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"email\": \"totam\",\n    \"password\": \"molestias\",\n    \"business_name\": \"possimus\",\n    \"step\": \"quae\",\n    \"role\": \"molestiae\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Login",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/login",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"email\": \"alias\",\n    \"password\": \"ad\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Forgot Password",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/forgotPassword",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"email\": \"hic\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Logout user (Revoke the token)",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/logout",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Profile",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/profile",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Change Password",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/changePassword",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"old_password\": \"ea\",\n    \"new_password\": \"doloremque\",\n    \"confirm_new_password\": \"voluptatem\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Profile Update",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "beast.dedicateddevelopers.us",
+                            "path": "api\/user\/profileUpdate",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"first_name\": \"consequatur\",\n    \"last_name\": \"iure\",\n    \"email\": \"velit\",\n    \"business_name\": \"omnis\",\n    \"country_id\": \"quos\",\n    \"city\": \"tempora\",\n    \"time_zone\": \"vel\",\n    \"business_descriptions_id\": \"non\",\n    \"business_phoneno\": \"dolor\",\n    \"business_other_details\": \"error\",\n    \"best_descriptions_id\": \"necessitatibus\",\n    \"best_other_details\": \"a\",\n    \"step\": \"eius\",\n    \"profile_image\": \"earum\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        }
+    ]
+}
